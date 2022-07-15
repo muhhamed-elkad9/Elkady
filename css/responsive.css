@@ -1,0 +1,147 @@
+/* Start Header */
+@media (max-width: 767px) {
+  header .logo {
+    width: 100%;
+    height: 50px;
+  }
+  header .main-nav {
+    margin: auto;
+  }
+  header .main-nav > li > a {
+    padding: 10px;
+    font-size: 14px;
+    height: 40px;
+  }
+  header .mega-menu {
+    flex-direction: column;
+    gap: 0;
+    padding: 5px;
+  }
+  header .mega-menu .links:first-of-type li:last-child {
+    border-bottom: 1px solid #e9e6e6;
+  }
+}
+
+@media (max-width: 991px) {
+  header .mega-menu .image {
+    display: none;
+  }
+}
+/* End Header */
+
+/* Start landing */
+@media (max-width: 767px) {
+  .landing .text h1 {
+    font-size: 28px;
+  }
+  .landing .text p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 991px) {
+  .landing .text {
+    text-align: center;
+  }
+  .landing .text p {
+    margin: 10px auto;
+  }
+  .landing .image {
+    display: none;
+  }
+}
+/* End landing */
+
+/* Start skills */
+@media (max-width: 991px) {
+  .our-skills img {
+    display: none;
+  }
+}
+/* End skills */
+
+/* Start works */
+@media (max-width: 767px) {
+  .works .coulmn .box {
+    flex-direction: column;
+    text-align: center;
+  }
+  .works .coulmn .box .image-2 img {
+    margin: 0 0 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  .works .container {
+    flex-direction: column;
+  }
+  .works .container .image-1 {
+    margin: 0 0 50px;
+  }
+}
+/* End works */
+
+/* Start events */
+@media (max-width: 767px) {
+  .events .subscribe form {
+    max-width: 100%;
+    padding: 20px;
+    flex-direction: column;
+    border-radius: 0;
+  }
+  .events .subscribe form input[type="email"] {
+    border-radius: 0;
+  }
+  .events .subscribe form input[type="submit"] {
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .events img {
+    display: none;
+  }
+}
+/* End events */
+
+/* Start pricing */
+@media (min-width: 1200px) {
+  .pricing .box.popular {
+    top: -20px;
+  }
+}
+/* End pricing */
+
+/* Srart video */
+@media (max-width: 991px) {
+  .video .holder {
+    flex-direction: column;
+  }
+}
+/* End video */
+
+/* Start discount */
+@media (max-width: 991px) {
+  .discount .image {
+    flex-basis: 100%;
+  }
+  .discount .form {
+    flex-basis: 100%;
+  }
+}
+/* End discount */
+
+/* Start footer */
+@media (max-width: 767px) {
+  .footer .box .social {
+    justify-content: center;
+  }
+  .footer .box .line {
+    flex-direction: column;
+  }
+  .footer .box .line svg {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}
+/* End footer */
